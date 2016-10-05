@@ -87,8 +87,10 @@
 -define:ENABLE_VSTU
 Assets/Scripts/CameraController.cs
 Assets/Scripts/GenerateWorld.cs
+Assets/Scripts/LoadScene.cs
 Assets/Scripts/LoadSceneOnClick.cs
 Assets/Scripts/PlayerControl.cs
+Assets/Scripts/QuitOnClick.cs
 Assets/UI/Scripts/ActiveStateToggler.cs
 Assets/UI/Scripts/ApplicationManager.cs
 Assets/UI/Scripts/ChangeColor.cs

@@ -68,9 +68,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\GenerateWorld.cs" />
+    <Compile Include="Assets\Scripts\LoadScene.cs" />
     <Compile Include="Assets\Scripts\LoadSceneOnClick.cs" />
     <Compile Include="Assets\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Scripts\QuitOnClick.cs" />
+    <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\UI\Scripts\ActiveStateToggler.cs" />
     <Compile Include="Assets\UI\Scripts\ApplicationManager.cs" />
     <Compile Include="Assets\UI\Scripts\ChangeColor.cs" />

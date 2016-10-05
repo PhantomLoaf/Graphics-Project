@@ -5,12 +5,14 @@
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
+-r:"C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll"
 -r:"C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll"
 -define:UNITY_5_3_OR_NEWER
 -define:UNITY_5_4_OR_NEWER
 -define:UNITY_5_4_1
 -define:UNITY_5_4
 -define:UNITY_5
+-define:UNITY_ANALYTICS
 -define:ENABLE_NEW_BUGREPORTER
 -define:ENABLE_AUDIO
 -define:ENABLE_CACHING
@@ -83,10 +85,13 @@
 -define:UNITY_EDITOR_WIN
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
-Assets/LoadSceneOnClick.cs
 Assets/Scripts/CameraController.cs
 Assets/Scripts/GenerateWorld.cs
+Assets/Scripts/LoadScene.cs
+Assets/Scripts/LoadSceneOnClick.cs
 Assets/Scripts/PlayerControl.cs
+Assets/Scripts/QuitOnClick.cs
+Assets/Scripts/SetupUI.cs
 Assets/UI/Scripts/ActiveStateToggler.cs
 Assets/UI/Scripts/ApplicationManager.cs
 Assets/UI/Scripts/ChangeColor.cs

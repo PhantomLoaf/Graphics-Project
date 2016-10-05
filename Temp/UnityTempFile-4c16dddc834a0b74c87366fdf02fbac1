@@ -85,11 +85,13 @@
 -define:UNITY_EDITOR_WIN
 -define:UNITY_TEAM_LICENSE
 -define:ENABLE_VSTU
-Assets/QuitOnClick.cs
 Assets/Scripts/CameraController.cs
 Assets/Scripts/GenerateWorld.cs
+Assets/Scripts/LoadScene.cs
 Assets/Scripts/LoadSceneOnClick.cs
 Assets/Scripts/PlayerControl.cs
+Assets/Scripts/QuitOnClick.cs
+Assets/SetupUI.cs
 Assets/UI/Scripts/ActiveStateToggler.cs
 Assets/UI/Scripts/ApplicationManager.cs
 Assets/UI/Scripts/ChangeColor.cs
