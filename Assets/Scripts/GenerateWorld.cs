@@ -2,16 +2,33 @@
 using System.Collections;
 
 public class GenerateWorld : MonoBehaviour {
-    public int limit = 10;
-    public GameObject root;
+    public int limit;
+
+    private GameObject root;
+
 	// Use this for initialization
 	void Start () {
-        for (int i = 0; i < limit; i++)
+        // what everything is
+        GameObject block = GameObject.CreatePrimitive(PrimitiveType.Cube);
+
+        // parent
+        root = Instantiate(block);
+        root.transform.position = new Vector3(0, 0, 0);
+        root.transform.rotation = Quaternion.identity;
+
+        for (int i = 1; i < limit; i++)
         {
-            GameObject go = Instantiate(root);
-            go.transform.position = new Vector3(i * 1.0f, 0, 0);
+            if(i % 10 == 0 || i % 10 == 1) {
+                continue;
+            }
+            GameObject go = Instantiate(block);
+            go.transform.position = new Vector3(i * 1f, 0, 0);
             go.transform.rotation = Quaternion.identity;
             go.transform.SetParent(root.transform);
+            if(i % 2 != 0)
+            {
+                go.GetComponent<Renderer>().material.color = new Color(0.5f, 0, 0);
+            }
         }
 	}
 	
